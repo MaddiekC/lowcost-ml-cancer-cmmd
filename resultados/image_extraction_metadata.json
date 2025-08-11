@@ -1,0 +1,21 @@
+{
+  "total_images_in_metadata": 2450,
+  "images_processed": 2450,
+  "images_with_errors": 0,
+  "success_rate": 100.0,
+  "total_features_extracted": 154,
+  "feature_types": {
+    "Color (RGB)": 0,
+    "Color (HSV)": 0,
+    "Color (LAB)": 0,
+    "Color (Dominante)": 0,
+    "Textura (GLCM)": 42,
+    "Textura (LBP)": 30,
+    "Textura (Gabor)": 36,
+    "Forma": 13,
+    "Estad\u00edsticas": 43
+  },
+  "processing_time_minutes": 38.29494725863139,
+  "time_per_image_seconds": 0.9378354430685238,
+  "images_per_minute": 63.97710861053056
+}

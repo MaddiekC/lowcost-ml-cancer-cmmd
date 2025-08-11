@@ -1,0 +1,195 @@
+{
+  "dataset_shape": [
+    867,
+    14
+  ],
+  "memory_usage_mb": 0.5933551788330078,
+  "column_types": {
+    "id_columns": [
+      "Series UID",
+      "Data Description URI",
+      "Number of Images",
+      "File Location",
+      "Data_ID_clean",
+      "ID1",
+      "ID_clean",
+      "image_folder_pattern"
+    ],
+    "target_column": "classification",
+    "numeric_columns": [
+      "Age",
+      "number"
+    ],
+    "categorical_columns": [
+      "LeftRight",
+      "abnormality",
+      "subtype"
+    ]
+  },
+  "missing_analysis": [
+    {
+      "Columna": "subtype",
+      "Valores_Faltantes": 597,
+      "Porcentaje_Faltante": 68.85813148788927,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "Series UID",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "Number of Images",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "int64"
+    },
+    {
+      "Columna": "File Location",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "Data_ID_clean",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "Data Description URI",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "ID1",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "LeftRight",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "number",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "int64"
+    },
+    {
+      "Columna": "Age",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "int64"
+    },
+    {
+      "Columna": "abnormality",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "classification",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "ID_clean",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    },
+    {
+      "Columna": "image_folder_pattern",
+      "Valores_Faltantes": 0,
+      "Porcentaje_Faltante": 0.0,
+      "Tipo_Dato": "object"
+    }
+  ],
+  "high_missing_columns": [
+    "subtype"
+  ],
+  "target_analysis": {
+    "distribution": {
+      "Benign": 223,
+      "Malignant": 644
+    },
+    "percentages": {
+      "Benign": 25.720876585928487,
+      "Malignant": 74.2791234140715
+    },
+    "imbalance_ratio": 2.8878923766816142,
+    "majority_class": "Malignant",
+    "minority_class": "Benign"
+  },
+  "numeric_stats": {
+    "Age": {
+      "count": 867.0,
+      "mean": 47.01153402537486,
+      "std": 10.44494444710795,
+      "min": 17.0,
+      "25%": 40.0,
+      "50%": 46.0,
+      "75%": 53.0,
+      "max": 87.0
+    },
+    "number": {
+      "count": 867.0,
+      "mean": 2.0,
+      "std": 0.0,
+      "min": 2.0,
+      "25%": 2.0,
+      "50%": 2.0,
+      "75%": 2.0,
+      "max": 2.0
+    }
+  },
+  "outlier_summary": {
+    "Age": {
+      "count": 13,
+      "percentage": 1.4994232987312572,
+      "lower_bound": 20.5,
+      "upper_bound": 72.5
+    },
+    "number": {
+      "count": 0,
+      "percentage": 0.0,
+      "lower_bound": 2.0,
+      "upper_bound": 2.0
+    }
+  },
+  "categorical_summary": {
+    "LeftRight": {
+      "unique_values": 2,
+      "most_frequent": "L",
+      "most_frequent_count": "456",
+      "most_frequent_percentage": 52.595155709342556
+    },
+    "abnormality": {
+      "unique_values": 3,
+      "most_frequent": "both",
+      "most_frequent_count": "323",
+      "most_frequent_percentage": 37.254901960784316
+    },
+    "subtype": {
+      "unique_values": 4,
+      "most_frequent": "Luminal B",
+      "most_frequent_count": "136",
+      "most_frequent_percentage": 15.686274509803921
+    }
+  },
+  "image_verification": {
+    "total_in_metadata": 867,
+    "total_series": 867,
+    "total_images_expected": "10158",
+    "existing_images": 2450,
+    "missing_images": 7708,
+    "completeness_percentage": 24.118921047450286
+  }
+}
