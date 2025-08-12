@@ -62,7 +62,7 @@ pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn plotly
 
 ### Ejecución
 
-Puedes ejecutar el pipeline completo abriendo y corriendo el notebook `01_lowcost_ml_cancer_cmmd.ipynb` en un entorno como Jupyter Lab o Google Colab.
+Puedes ejecutar el pipeline completo abriendo y corriendo el notebook en un entorno como Jupyter Lab o Google Colab.
 
 ## 📈 Resultados
 
